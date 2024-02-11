@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    box-sizing: border-box;
+}
+
+.error-message {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: red;
+    font-weight: 200;
+    font-size: 15px;
+    content-visibility: hidden;
+}
+
+.background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.signuptext {
+    text-align: center;  
+    margin-top: 10px; 
+}
+
+.container {
+    background-color: #c1bfbf;
+    position: absolute;
+    text-align: center;
+    border: 1px solid black;
+    box-shadow: 0 1px 10px black;
+    border-radius: 20px;
+    transform: translateX(-50%);
+    left: 50%;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 200px;
+}
+
+.bottom-container {
+    width: 100%;
+}
+
+#inputs {
+    border: none;
+    background-color: #e7e6e6;
+    border-radius: 8px;
+    align-items: center;
+    margin-top: 10px;   
+    width: 300px;
+    height: 30px;
+    padding: 0px 10px;
+}
+
+.form-input-container {
+    background-color: #b5b5b5;
+    border-radius: 20px;
+    width: calc(100% + 100px);
+    position: relative;
+    left: -50px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+}   
+
+.sign-in-container {
+    margin-top: 10px;
+    font-size: 10px;
+}
+
+#input-container {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
